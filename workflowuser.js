@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", {value: true});
-var workflow02_ts_1 = require("./workflow02.ts");
+var workflow02_ts_1 = require("./workflow.ts");
 var userTask = /** @class */ (function () {
     function userTask() {
     }
