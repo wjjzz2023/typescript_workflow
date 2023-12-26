@@ -1,4 +1,4 @@
-import {TaskQueueContainer, TaskQueue, SimpleTask, Task, SwitchTask, IfElseTask,AspectTask} from "./workflow02.ts";
+import {TaskQueueContainer, TaskQueue, SimpleTask, Task, SwitchTask, IfElseTask,AspectTask} from "./workflow.ts";
 
 class userTask implements Task {
     execute(executionContext: Map<string, any>): Task {
