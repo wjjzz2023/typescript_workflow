@@ -38,7 +38,7 @@ A container for managing multiple task queues and their execution contexts.
 
 ```typescript
 // Import necessary classes from your workflow library
-import { TaskQueueContainer, TaskQueue, SimpleTask, Task, SwitchTask, IfElseTask, AspectTask } from "./workflow02.ts";
+import { TaskQueueContainer, TaskQueue, SimpleTask, Task, SwitchTask, IfElseTask, AspectTask } from "./workflow.ts";
 
 // Define a custom task that implements the Task interface
 class UserTask implements Task {
